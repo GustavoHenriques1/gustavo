@@ -6,6 +6,7 @@ public class NumerosParesEImpares {
     int qtdNumerosImpares;
 
     void classificarNumero(int numero){
+        //verifico se é par, se for, incremento, senão, incremento os impares.
         if(numero % 2 == 0){
             qtdNumerosPares++;
         }else{
